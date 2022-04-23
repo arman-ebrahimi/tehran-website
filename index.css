@@ -1,0 +1,104 @@
+		body{
+			text-transform: capitalize;
+			margin: 0;
+		}
+		.container1{
+			width: 100%;
+			height: 650px;
+			background: url('1.jpg') center center/cover no-repeat fixed;
+			position: relative;
+		}
+		.text-over1{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			background-color: rgba(60,60,60,0.9);
+			color: white;
+			padding: 20px 5px;
+			font-size: 25px;
+			width: 400px;
+			text-align: center;
+			letter-spacing: 8px;
+			border-radius: 4px;
+		}	
+		.container2{
+			width: 100%;
+			height: 650px;
+			background: url('tehran-18.jpg') center center/cover no-repeat fixed;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text-over2{
+			text-align: center;
+			background-color: whitesmoke;
+			padding: 25px 50px;
+			line-height: 1.8em;
+			color: #666;
+			font-size: 18px;
+			align-self: flex-start;
+		}
+		.text-over3{
+			font-size: 50px;
+			font-weight: bold;
+			color: teal;
+			letter-spacing: 8px;
+		}
+		.container3{
+			width: 100%;
+			height: 650px;
+			background: url('Azadi_Stadium_panorama_01.jpg') center center/cover no-repeat fixed;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text-over4{
+			background-color: #888;
+			color: white;
+			padding: 25px 50px;
+			line-height: 1.8em;
+			text-align: center;
+			font-size: 18px;
+		}
+		.text-over5{
+			letter-spacing: 8px;
+			font-size: 50px;
+			font-weight: bold;
+			color: indianred;
+		}
+		.container4{
+			width: 100%;
+			height: 935px;
+			background: url('milad.jpg') center center/cover no-repeat fixed;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text-over6{
+			background-color: #444;
+			color: white;
+			padding: 25px 50px;
+			line-height: 1.8em;
+			text-align: center;
+			font-size: 18px;
+		}
+		.text-over7{
+			background-color: rgba(60,60,60,0.9);
+			text-align: center;
+			width: 500px;
+			padding: 20px 5px;
+			color: white;
+			font-size: 25px;
+			letter-spacing: 6px;
+			border-radius: 4px;
+		}
+		.footer{
+			background-color: teal;
+			padding: 20px 20px;
+			font-size: 1.3em;
+		}
+		a{
+			text-decoration: none;
+			color: white;
+		}
